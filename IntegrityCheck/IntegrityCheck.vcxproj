@@ -144,10 +144,16 @@
     <MASM Include="to_hook.asm" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="checks.json" />
     <None Include="checks.schema.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties checks_1json__JsonSchema="https://raw.githubusercontent.com/slayercio/integrity/master/IntegrityCheck/checks.schema.json" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

@@ -42,5 +42,8 @@
     <None Include="checks.schema.json">
       <Filter>Pliki zasobów</Filter>
     </None>
+    <None Include="checks.json">
+      <Filter>Pliki zasobów</Filter>
+    </None>
   </ItemGroup>
 </Project>
