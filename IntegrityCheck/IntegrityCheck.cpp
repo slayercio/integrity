@@ -14,7 +14,7 @@ int main()
     auto integrity = std::make_shared<sln::IntegrityThread>(handler);
     unsigned char to_hook_bytes[]{ 0xE9, 0x23, 0x1B, 0x00, 0x00 };
 
-    to_hook("example!\n");
+    to_hook("example1!\n");
     to_hook("test!\n");
 
     auto request = sln::Integrity::IntegrityRequest(
