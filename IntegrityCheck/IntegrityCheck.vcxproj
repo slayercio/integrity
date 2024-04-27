@@ -144,7 +144,7 @@
     <MASM Include="to_hook.asm" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="checks.json" />
+    <None Include="checks.schema.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

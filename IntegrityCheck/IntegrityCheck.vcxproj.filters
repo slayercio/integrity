@@ -39,7 +39,7 @@
     </MASM>
   </ItemGroup>
   <ItemGroup>
-    <None Include="checks.json">
+    <None Include="checks.schema.json">
       <Filter>Pliki zasobów</Filter>
     </None>
   </ItemGroup>
